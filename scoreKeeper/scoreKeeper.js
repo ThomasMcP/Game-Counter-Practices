@@ -32,10 +32,10 @@ input.addEventListener('change', function() {
 
 // Reset Event
 reset.addEventListener('click', function() {
-  resetGame();
   if (gameOver === true) {
     toggleWinnerClass();
   }
+  resetGame();
 });
 
 function resetGame() {
